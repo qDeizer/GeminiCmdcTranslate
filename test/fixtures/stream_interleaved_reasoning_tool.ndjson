@@ -1,0 +1,9 @@
+{"type":"start"}
+{"type":"start-step"}
+{"type":"reasoning-start","text":""}
+{"type":"reasoning-delta","text":"I need to list directory contents to inspect the project files."}
+{"type":"tool-call","toolCallId":"call_bash_456","toolName":"bash","input":{"command":"ls -la"}}
+{"type":"reasoning-delta","text":" The bash tool will list files while I formulate the next steps."}
+{"type":"reasoning-end"}
+{"type":"finish-step"}
+{"type":"finish","finishReason":"tool-calls","totalUsage":{"inputTokens":1200,"outputTokens":65}}

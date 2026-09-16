@@ -1,0 +1,146 @@
+{
+  "listen": {
+    "host": "127.0.0.1",
+    "port": 8741
+  },
+  "apiKey": "user_your_commandcode_api_key_here",
+  "native": {
+    "baseUrl": "https://api.commandcode.ai",
+    "cliVersion": "1.54.0",
+    "cliEnvironment": "production",
+    "projectSlug": "default-workspace",
+    "emptySystem": "single-space",
+    "permissionMode": "auto-accept"
+  },
+  "models": {
+    "Opus-6": {
+      "upstream": "deepseek/deepseek-v4.1-flash",
+      "clientCategory": "claude",
+      "defaultEffort": "high",
+      "maxOutputTokens": 64000,
+      "effortMap": {
+        "unspecified": "omit",
+        "none": "reject",
+        "minimal": "low",
+        "low": "low",
+        "medium": "high",
+        "high": "high",
+        "xhigh": "max",
+        "max": "max"
+      },
+      "supportsImages": true,
+      "supportsTools": true,
+      "billsReasoningTokens": true,
+      "streamsReasoningText": false
+    },
+    "soonet-5": {
+      "upstream": "deepseek/deepseek-v4.1-flash",
+      "clientCategory": "claude",
+      "defaultEffort": "high",
+      "maxOutputTokens": 64000,
+      "effortMap": {
+        "unspecified": "omit",
+        "none": "reject",
+        "minimal": "low",
+        "low": "low",
+        "medium": "high",
+        "high": "high",
+        "xhigh": "max",
+        "max": "max"
+      },
+      "supportsImages": true,
+      "supportsTools": true,
+      "billsReasoningTokens": true,
+      "streamsReasoningText": false
+    },
+    "fable5": {
+      "upstream": "z-ai/glm-5.3-flash",
+      "clientCategory": "claude",
+      "defaultEffort": "high",
+      "maxOutputTokens": 64000,
+      "effortMap": {
+        "unspecified": "omit",
+        "none": "reject",
+        "minimal": "low",
+        "low": "low",
+        "medium": "high",
+        "high": "high",
+        "xhigh": "max",
+        "max": "max"
+      },
+      "supportsImages": true,
+      "supportsTools": true,
+      "billsReasoningTokens": true,
+      "streamsReasoningText": false
+    },
+    "luna": {
+      "upstream": "deepseek/deepseek-v4.1-flash",
+      "clientCategory": "codex",
+      "defaultEffort": "high",
+      "maxOutputTokens": 64000,
+      "effortMap": {
+        "unspecified": "omit",
+        "none": "reject",
+        "minimal": "low",
+        "low": "low",
+        "medium": "high",
+        "high": "high",
+        "xhigh": "max",
+        "max": "max"
+      },
+      "supportsImages": true,
+      "supportsTools": true,
+      "billsReasoningTokens": true,
+      "streamsReasoningText": false
+    },
+    "Terra": {
+      "upstream": "deepseek/deepseek-v4.1-flash",
+      "clientCategory": "codex",
+      "defaultEffort": "high",
+      "maxOutputTokens": 64000,
+      "effortMap": {
+        "unspecified": "omit",
+        "none": "reject",
+        "minimal": "low",
+        "low": "low",
+        "medium": "high",
+        "high": "high",
+        "xhigh": "max",
+        "max": "max"
+      },
+      "supportsImages": true,
+      "supportsTools": true,
+      "billsReasoningTokens": true,
+      "streamsReasoningText": false
+    },
+    "SoL": {
+      "upstream": "z-ai/glm-5.3-flash",
+      "clientCategory": "codex",
+      "defaultEffort": "high",
+      "maxOutputTokens": 64000,
+      "effortMap": {
+        "unspecified": "omit",
+        "none": "reject",
+        "minimal": "low",
+        "low": "low",
+        "medium": "high",
+        "high": "high",
+        "xhigh": "max",
+        "max": "max"
+      },
+      "supportsImages": true,
+      "supportsTools": true,
+      "billsReasoningTokens": true,
+      "streamsReasoningText": false
+    },
+    "default": {
+      "upstream": "deepseek/deepseek-v4.1-flash",
+      "defaultEffort": "high",
+      "maxOutputTokens": 64000,
+      "supportsImages": true,
+      "supportsTools": true,
+      "billsReasoningTokens": true,
+      "streamsReasoningText": false
+    }
+  }
+}

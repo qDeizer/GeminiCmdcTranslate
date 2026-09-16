@@ -1,0 +1,8 @@
+{"type":"start"}
+{"type":"start-step"}
+{"type":"tool-input-start","toolName":"search_tools"}
+{"type":"tool-input-delta","delta":"{\"query\":\"web search\"}"}
+{"type":"tool-input-end"}
+{"type":"tool-call","toolCallId":"call_search_987123","toolName":"search_tools","input":{"query":"web search"}}
+{"type":"finish-step"}
+{"type":"finish","finishReason":"tool-calls","totalUsage":{"inputTokens":850,"outputTokens":32}}
